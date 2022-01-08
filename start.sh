@@ -5,7 +5,7 @@ then
   git clone https://github.com/subinps/VCPlayerBot /VCPlayerBot
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/subinps/VCPlayerBot -b $BRANCH /VCPlayerBot
+  git clone https://github.com/kingboyss/video-player-tg -b $BRANCH /VCPlayerBot
 fi
 cd /VCPlayerBot
 pip3 install -U -r requirements.txt
